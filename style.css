@@ -1,0 +1,62 @@
+html { 
+  background: url('./InGjMxA-apple-mac-desktop-backgrounds.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+};
+
+.pure-g {
+    letter-spacing: -.31em;
+    *letter-spacing: normal;
+    *word-spacing: -.43em;
+    text-rendering: optimizespeed;
+    font-family: FreeSans, Arimo, "Droid Sans", Helvetica, Arial, sans-serif;
+}
+.opera-only :-o-prefocus, .pure-g {
+    word-spacing: -.43em;
+}
+.pure-u {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto;
+}
+.pure-g [class *="pure-u"] {
+    font-family: sans-serif;
+}
+
+
+.container {
+  padding: 30px;
+  text-align: center;
+}
+.child {
+  width: 20%;
+  padding: 20px;
+  margin: 2.5%;
+  text-align: center;
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.child {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#answerSpace {
+visibility: hidden;
+}
+
